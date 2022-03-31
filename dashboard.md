@@ -1,3 +1,3 @@
-layout: page
+layout: default
 title: Painel
 permalink: /painel/
