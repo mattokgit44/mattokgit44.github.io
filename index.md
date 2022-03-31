@@ -29,8 +29,6 @@ theme: jekyll-theme-minimal
 
 # Quem somos?
 
-##Teste
-
 Esse aplicativo está sendo desenvolvido pelo grupo da turma de IHC do terceiro periodo de 2022/1 composto por:
 * Felipe Martins Sanches
 * Wellingthon Orli Pires
