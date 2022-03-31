@@ -42,3 +42,5 @@ permalink: /login/
 </style>
 
 # Login
+
+<a href="/registro" style="">Ainda não possui conta?</a>
