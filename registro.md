@@ -1,4 +1,5 @@
 ---
+theme: jekyll-theme-minimal
 title: Registro
 permalink: /registro/
 ---

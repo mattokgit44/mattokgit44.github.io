@@ -1,4 +1,5 @@
 ---
+theme: jekyll-theme-minimal
 title: Painel
 permalink: /painel/
 ---
