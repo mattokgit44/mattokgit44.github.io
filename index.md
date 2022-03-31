@@ -1,3 +1,6 @@
+---
+layout: page
+---
 <nav> 
   <ul> 
     <li><a href="/">Inicio</a></li>
