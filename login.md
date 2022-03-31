@@ -3,46 +3,29 @@ theme: jekyll-theme-minimal
 title: Login
 permalink: /login/
 ---
-<!DOCTYPE html>
-<html lang="pt">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-</head>
+<nav> 
+  <ul> 
+    <li><a href="/">Inicio</a></li>
+    <li><a href="/login/">Login/Registro</a></li>
+    <li><a href="/painel/">Painel</a></li>
+  </ul>
+</nav>
 
-<body>
-  <nav>
-    <ul>
-      <li><a href="/">Inicio</a></li>
-      <li><a href="/login/">Login/Registro</a></li>
-      <li><a href="/painel/">Painel</a></li>
-    </ul>
-  </nav>
-
-  {{content}}
-
-  <style>
-    nav ul {
-      display: flex;
-      list-style: none;
-    }
-
-    nav ul li {
-      margin-right: 10px;
-    }
-
-    nav ul li a {
-      text-decoration: none;
-    }
-
-    nav ul li a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</body>
-
-</html>
+<style>
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  nav ul li {
+    margin-right: 10px;
+  }
+  nav ul li a {
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+</style>
 
 # Login

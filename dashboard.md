@@ -4,46 +4,28 @@ title: Painel
 permalink: /painel/
 ---
 
-<!DOCTYPE html>
-<html lang="pt">
+<nav> 
+  <ul> 
+    <li><a href="/">Inicio</a></li>
+    <li><a href="/login/">Login/Registro</a></li>
+    <li><a href="/painel/">Painel</a></li>
+  </ul>
+</nav>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-</head>
-
-<body>
-  <nav>
-    <ul>
-      <li><a href="/">Inicio</a></li>
-      <li><a href="/login/">Login/Registro</a></li>
-      <li><a href="/painel/">Painel</a></li>
-    </ul>
-  </nav>
-
-  {{content}}
-
-  <style>
-    nav ul {
-      display: flex;
-      list-style: none;
-    }
-
-    nav ul li {
-      margin-right: 10px;
-    }
-
-    nav ul li a {
-      text-decoration: none;
-    }
-
-    nav ul li a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</body>
-
-</html>
+<style>
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  nav ul li {
+    margin-right: 10px;
+  }
+  nav ul li a {
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+</style>
 
 # Painel
