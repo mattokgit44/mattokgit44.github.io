@@ -14,16 +14,30 @@ permalink: /registro/
 
 <style>
   nav ul {
+    padding:0px;
+  	margin:0px;
+	  background-color:#EDEDED;
     display: flex;
     list-style: none;
   }
   nav ul li {
+    display: inline;
     margin-right: 10px;
   }
   nav ul li a {
-    text-decoration: none;
+    padding: 2px 10px;
+	  display: inline-block;
+
+	  /* visual do link */
+	  background-color:#EDEDED;
+	  color: #333;
+	  text-decoration: none;
+	  border-bottom:3px solid #EDEDED;
   }
   nav ul li a:hover {
+    background-color:#D6D6D6;
+	  color: #6D6D6D;
+	  border-bottom:3px solid #EA0000;
     text-decoration: underline;
   }
 </style>
