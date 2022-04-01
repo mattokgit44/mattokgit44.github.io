@@ -42,11 +42,9 @@ permalink: /registro/
   }
 </style>
 
-# Registro
-
 <div id="modal-singup" class="modal">
   <div class="modal-content">
-    <h4>Registrar-se</h4><br />
+    <h2>Criar conta</h2><br />
     <form id="singup-form">
       <div class="input-field">
         <input type="email" id="singup-email" required />
@@ -55,6 +53,14 @@ permalink: /registro/
       <div class="input-field">
         <input type="password" id="singup-password" required />
         <label for="singup-password">Senha</label>
+      </div>
+      <div class="input-field">
+        <input type="date" id="singup-date" required />
+        <label for="singup-date">Data de nascimento</label>
+      </div>
+      <div class="input-field">
+        <input type="number" id="singup-CPF" required />
+        <label for="singup-CPF">CPF</label>
       </div>
       <button class="btn yellow darken-2 z-depth-0">Registrar</button>
     </form>
