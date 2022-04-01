@@ -59,7 +59,7 @@ permalink: /registro/
         <label for="singup-date">Data de nascimento</label>
       </div>
       <div class="input-field">
-        <input type="number" id="singup-CPF" required />
+        <input type="text" id="singup-CPF" pattern="xxx.xxx.xxx-xx" required />
         <label for="singup-CPF">CPF</label>
       </div>
       <button class="btn yellow darken-2 z-depth-0">Registrar</button>
