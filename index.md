@@ -1,7 +1,9 @@
 ---
 theme: jekyll-theme-minimal
 ---
-
+<div id="topbar">
+  <section data-v-0e334df4 id="top-bar">
+</div>
 <nav> 
   <ul> 
     <li><a href="/">Inicio</a></li>
