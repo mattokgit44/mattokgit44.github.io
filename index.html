@@ -113,7 +113,7 @@
 
     <!-- Navbar (sit on top) -->
     <div class="topnav">
-        <div class="topnav" id="myNavbar">
+        <div class="w3-bar">
             <a href="#home" class="w3-bar-item w3-button">HOME</a>
             <a href="#about" class="w3-bar-item w3-button"></i> SOBRE NÓS</a>
             <a href="#members" class="w3-bar-item w3-button"></i> MEMBROS</a>
@@ -300,17 +300,6 @@
             }
 
             setInterval(carrossel, 10);
-
-            // Change style of navbar on scroll
-            window.onscroll = function () { myFunction() };
-            function myFunction() {
-                var navbar = document.getElementById("myNavbar");
-                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                    navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-                } else {
-                    navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-                }
-            }
 
             function onClick(element) {
                 document.getElementById("img01").src = element.src;
