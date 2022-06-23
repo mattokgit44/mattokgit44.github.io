@@ -343,39 +343,40 @@
                 <p>.</p>
                 <img src="" alt="">
             </div>
-            <!-- Footer -->
-            <footer class="centro w3-center w3-black w3-padding-64 w3-opacity">
-                <a href=" #home" class="centro w3-button w3-light-grey w3-center"><i
-                        class="fa fa-arrow-up w3-margin-right"></i>Voltar ao
-                    Topo</a>
-            </footer>
         </div>
+        <!-- Footer -->
+        <footer class="centro w3-center w3-black w3-padding-64 w3-opacity">
+            <a href=" #home" class="centro w3-button w3-light-grey w3-center"><i
+                    class="fa fa-arrow-up w3-margin-right"></i>Voltar ao
+                Topo</a>
+        </footer>
+    </div>
 
-        <script>
-            const imgs = document.getElementById("img");
-            const img = document.querySelectorAll("#img img");
+    <script>
+        const imgs = document.getElementById("img");
+        const img = document.querySelectorAll("#img img");
 
-            let idx = 0;
+        let idx = 0;
 
-            function carrossel() {
-                idx++;
+        function carrossel() {
+            idx++;
 
-                if (idx > img.length - 1) {
-                    idx = 0;
-                }
-
-                // img.style.transform = 'translateX(${-idx * 500}px)';
+            if (idx > img.length - 1) {
+                idx = 0;
             }
 
-            setInterval(carrossel, 10);
+            // img.style.transform = 'translateX(${-idx * 500}px)';
+        }
 
-            function onClick(element) {
-                document.getElementById("img01").src = element.src;
-                document.getElementById("modal01").style.display = "block";
-                var captionText = document.getElementById("caption");
-                captionText.innerHTML = element.alt;
-            }
-        </script>
+        setInterval(carrossel, 10);
+
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+    </script>
 
 </body>
 
