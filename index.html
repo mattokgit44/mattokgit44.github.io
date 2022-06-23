@@ -113,211 +113,212 @@
 
     <!-- Navbar (sit on top) -->
     <div class="topnav">
-        <a href="#home" class="w3-bar-item w3-button">HOME</a>
-        <a href="#about" class="w3-bar-item w3-button w3-hide-small"></i> SOBRE NÓS</a>
-        <a href="#members" class="w3-bar-item w3-button w3-hide-small"></i> MEMBROS</a>
-        <a href="#process" class="w3-bar-item w3-button w3-hide-small"></i> PROCESSO</a>
-        </a>
-    </div>
-
-    <!--PRIMEIRA PARTICAO-->
-    <div class="particao w3-display-container w3-opacity-min" id="home">
-        <div class="w3-display-middle" style="white-space:nowrap;">
-            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">UNIDOS</span>
+        <div class="w3-bar" id="myNavbar">
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"></i> SOBRE NÓS</a>
+            <a href="#members" class="w3-bar-item w3-button w3-hide-small"></i> MEMBROS</a>
+            <a href="#process" class="w3-bar-item w3-button w3-hide-small"></i> PROCESSO</a>
+            </a>
         </div>
-    </div>
 
-    <!-- Container (Sobre nós) -->
-    <div class="w3-content w3-container w3-padding-64" id="about">
-        <h2 class="w3-center">Sobre nós</h2>
-        <p class="w3-center"><em>Unidos</em></p>
-        <h3>Nosso aplicativo é uma nova forma fácil e rápida para auxiliar tanto quem tem vontade de doar mas não
-            sabe como,
-            quanto para quem precisa de doação. Tudo isso em um só aplicativo, com ele você pode doar de diversas
-            formas ou cadastrar a sua causa para receber doações. O mais interessante que temos um selo de
-            qualificação, para que você não se preocupe com a procedência da causa.</h3>
-    </div>
-    <!--SEGUNDA PARTICAO-->
-    <div class="particao w3-display-container w3-opacity-min" id="home">
-        <div class="w3-display-middle" style="white-space:nowrap;">
-            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MEMBROS</span>
-        </div>
-    </div>
-
-
-    <!-- Container Membros -->
-    <div class="w3-content w3-container w3-padding-64" id="members">
-        <h3 class="w3-center">Participantes do projeto</h3>
-
-        <!-- Fotos ajustaveis -->
-        <div class="w3-row-padding w3-center">
-            <div class="w3-col m3 sombra">
-                <img id="sd" src="/images/mattok.jpeg" style="width:100%;height:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="Felipe Martins Sanches">
-            </div>
-
-            <div class="w3-col m3 sombra">
-                <img id="sd" src="/images/leton.png" style="width:100%;height:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="Wellingthon Orly Ferreira Pires">
-            </div>
-
-            <div class="w3-col m3 sombra">
-                <img id="sd" src="/images/amanda.jpg" style="width:100%;height:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="Amanda Ferrari">
-            </div>
-            <div class="w3-col m3 sombra">
-                <img id="sd" src="/images/leticia.png" style="width:100%;height:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="Leticia Brito">
+        <!--PRIMEIRA PARTICAO-->
+        <div class="particao w3-display-container w3-opacity-min" id="home">
+            <div class="w3-display-middle" style="white-space:nowrap;">
+                <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">UNIDOS</span>
             </div>
         </div>
 
-        <div class="w3-row-padding w3-center w3-section">
-            <div class="w3-col m3">
-                <img src="/images/ciano.png" style="width:0%;height:0%" display="none" onclick="onClick(this)" class=""
-                    alt="">
-            </div>
-
-            <div class="w3-col m3 sombra">
-                <img id="sd" src="/images/salame.jpg" style="width:100%;height:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="Guilherme Luiz de Matos">
-            </div>
-
-            <div class="w3-col m3 sombra">
-                <img id="sd" src="/images/corumba.jpg" style="width:100%;height:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="Luiz Felipe Corumba Silva">
-            </div>
+        <!-- Container (Sobre nós) -->
+        <div class="w3-content w3-container w3-padding-64" id="about">
+            <h2 class="w3-center">Sobre nós</h2>
+            <p class="w3-center"><em>Unidos</em></p>
+            <h3>Nosso aplicativo é uma nova forma fácil e rápida para auxiliar tanto quem tem vontade de doar mas não
+                sabe como,
+                quanto para quem precisa de doação. Tudo isso em um só aplicativo, com ele você pode doar de diversas
+                formas ou cadastrar a sua causa para receber doações. O mais interessante que temos um selo de
+                qualificação, para que você não se preocupe com a procedência da causa.</h3>
         </div>
-    </div>
-
-    <!-- Modal for full size images on click-->
-    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
-                class="fa fa-remove"></i></span>
-        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-            <img id="img01" class="w3-image">
-            <p id="caption" class="w3-opacity w3-large"></p>
-        </div>
-    </div>
-
-    <!-- TERCEIRA PARTICAO -->
-    <div class="particao w3-display-container w3-opacity-min" id="home">
-        <div class="w3-display-middle" style="white-space:nowrap;">
-            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">PROCESSO</span>
-        </div>
-    </div>
-
-
-    <!-- Container Processo -->
-    <div class="w3-content w3-container w3-padding-64" id="process">
-        <h3 class="w3-center">Processos do Projeto</h3>
-        <h2 class="w3-center"> Dia 1</h2>
-        <p class="w3-center"><em>Conceito de três partes</em></p>
-        <div class="carrossel">
-            <div class="conteiner1" id="img">
-                <img src="/imageprocesso/Dia1/Conceito3partes/Amanda.jpeg" alt="">
-                <img src="/imageprocesso/Dia1/Conceito3partes/Felipe.jpeg" alt="">
-                <img src="/imageprocesso/Dia1/Conceito3partes/Guilherme.jpeg" alt="">
-                <img src="/imageprocesso/Dia1/Conceito3partes/Leticia - 1.jpeg" alt="">
-                <img src="/imageprocesso/Dia1/Conceito3partes/Leticia - 2.jpeg" alt="">
-                <img src="/imageprocesso/Dia1/Conceito3partes/Luis F - 1.jpeg" alt="">
-                <img src="/imageprocesso/Dia1/Conceito3partes/Luis F - 2.jpeg" alt="">
-                <img src="/imageprocesso/Dia1/Conceito3partes/Luis F - 3.jpeg" alt="">
-                <img src="/imageprocesso/Dia1/Conceito3partes/Welligton.jpeg" alt="">
+        <!--SEGUNDA PARTICAO-->
+        <div class="particao w3-display-container w3-opacity-min" id="home">
+            <div class="w3-display-middle" style="white-space:nowrap;">
+                <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MEMBROS</span>
             </div>
         </div>
-        <p class="w3-center"><em>Crazy 8s</em></p>
-        <div class="carrossel w3-center">
-            <div class="conteiner1" id="img">
-                <img src="/imageprocesso/Dia1/Crazy8s/Amanda.jpeg" alt="">
-                <img src="/imageprocesso/Dia1/Crazy8s/Felipe.jpeg" alt="">
-                <img src="/imageprocesso/Dia1/Crazy8s/Guilherme.jpeg" alt="">
-                <img src="/imageprocesso/Dia1/Crazy8s/Leticia.jpeg" alt="">
-                <img src="/imageprocesso/Dia1/Crazy8s/Luis F..jpeg" alt="">
-                <img src="/imageprocesso/Dia1/Crazy8s/Welligton.jpeg" alt="">
-            </div>
-        </div>
-        <p class="w3-center"><em>Mapa e Objetivos</em></p>
-        <div class="carrossel w3-center">
-            <div class="conteiner1" id="img">
-                <img src="/imageprocesso/Dia1/Mapa e objetivos/Mapa.jpeg" alt="">
-                <img src="/imageprocesso/Dia1/Mapa e objetivos/Obejtivos.jpeg" alt="">
-            </div>
-        </div>
-        <h2 class="w3-center"> Dia 2</h2>
-        <p class="w3-center"><em>Conceitos com votos</em></p>
-        <div class="carrossel w3-center">
-            <div class="conteiner1" id="img">
-                <img src="/imageprocesso/Dia 2/Conceitos com os votos/Amanda.jpeg" alt="">
-                <img src="/imageprocesso/Dia 2/Conceitos com os votos/Felipe.jpeg" alt="">
-                <img src="/imageprocesso/Dia 2/Conceitos com os votos/Guilherme.jpeg" alt="">
-                <img src="/imageprocesso/Dia 2/Conceitos com os votos/Leticia - 1.jpeg" alt="">
-                <img src="/imageprocesso/Dia 2/Conceitos com os votos/Leticia - 2.jpeg" alt="">
-                <img src="/imageprocesso/Dia 2/Conceitos com os votos/Luis F.jpeg" alt="">
-                <img src="/imageprocesso/Dia 2/Conceitos com os votos/Welligton - 1.jpeg" alt="">
-                <img src="/imageprocesso/Dia 2/Conceitos com os votos/Welligton - 2.jpeg" alt="">
-            </div>
-        </div>
-        <p class="w3-center"><em>Fluxo de teste</em></p>
-        <div class="carrossel w3-center">
-            <div class="conteiner1" id="img">
-                <img src="/imageprocesso/Dia 2/Fluxo de teste/Amanda F.jpeg" alt="">
-                <img src="/imageprocesso/Dia 2/Fluxo de teste/Felipe M.jpeg" alt="">
-                <img src="/imageprocesso/Dia 2/Fluxo de teste/Guilherme.jpeg" alt="">
-                <img src="/imageprocesso/Dia 2/Fluxo de teste/Leticia B.jpeg" alt="">
-                <img src="/imageprocesso/Dia 2/Fluxo de teste/Luis F.jpeg" alt="">
-                <img src="/imageprocesso/Dia 2/Fluxo de teste/Welligton.jpeg" alt="">
-            </div>
-        </div>
-        <p class="w3-center"><em>Storyboard</em></p>
-        <div class="carrossel w3-center">
-            <div class="conteiner1" id="img">
-                <img src="/imageprocesso/Dia 2/Storyboard/StoryBoard.jpeg" alt="">
-            </div>
-        </div>
-    </div>
 
-    <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-64 w3-opacity">
-        <a href=" #home" class="w3-button w3-light-grey w3-center"><i class="fa fa-arrow-up w3-margin-right"></i>Voltar
-            ao
-            Topo</a>
-    </footer>
-    <script>
-        const imgs = document.getElementById("img");
-        const img = document.querySelectorAll("#img img");
 
-        let idx = 0;
+        <!-- Container Membros -->
+        <div class="w3-content w3-container w3-padding-64" id="members">
+            <h3 class="w3-center">Participantes do projeto</h3>
 
-        function carrossel() {
-            idx++;
+            <!-- Fotos ajustaveis -->
+            <div class="w3-row-padding w3-center">
+                <div class="w3-col m3 sombra">
+                    <img id="sd" src="/images/mattok.jpeg" style="width:100%;height:100%" onclick="onClick(this)"
+                        class="w3-hover-opacity" alt="Felipe Martins Sanches">
+                </div>
 
-            if (idx > img.length - 1) {
-                idx = 0;
+                <div class="w3-col m3 sombra">
+                    <img id="sd" src="/images/leton.png" style="width:100%;height:100%" onclick="onClick(this)"
+                        class="w3-hover-opacity" alt="Wellingthon Orly Ferreira Pires">
+                </div>
+
+                <div class="w3-col m3 sombra">
+                    <img id="sd" src="/images/amanda.jpg" style="width:100%;height:100%" onclick="onClick(this)"
+                        class="w3-hover-opacity" alt="Amanda Ferrari">
+                </div>
+                <div class="w3-col m3 sombra">
+                    <img id="sd" src="/images/leticia.png" style="width:100%;height:100%" onclick="onClick(this)"
+                        class="w3-hover-opacity" alt="Leticia Brito">
+                </div>
+            </div>
+
+            <div class="w3-row-padding w3-center w3-section">
+                <div class="w3-col m3">
+                    <img src="/images/ciano.png" style="width:0%;height:0%" display="none" onclick="onClick(this)"
+                        class="" alt="">
+                </div>
+
+                <div class="w3-col m3 sombra">
+                    <img id="sd" src="/images/salame.jpg" style="width:100%;height:100%" onclick="onClick(this)"
+                        class="w3-hover-opacity" alt="Guilherme Luiz de Matos">
+                </div>
+
+                <div class="w3-col m3 sombra">
+                    <img id="sd" src="/images/corumba.jpg" style="width:100%;height:100%" onclick="onClick(this)"
+                        class="w3-hover-opacity" alt="Luiz Felipe Corumba Silva">
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for full size images on click-->
+        <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+            <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+                    class="fa fa-remove"></i></span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption" class="w3-opacity w3-large"></p>
+            </div>
+        </div>
+
+        <!-- TERCEIRA PARTICAO -->
+        <div class="particao w3-display-container w3-opacity-min" id="home">
+            <div class="w3-display-middle" style="white-space:nowrap;">
+                <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">PROCESSO</span>
+            </div>
+        </div>
+
+
+        <!-- Container Processo -->
+        <div class="w3-content w3-container w3-padding-64" id="process">
+            <h3 class="w3-center">Processos do Projeto</h3>
+            <h2 class="w3-center"> Dia 1</h2>
+            <p class="w3-center"><em>Conceito de três partes</em></p>
+            <div class="carrossel">
+                <div class="conteiner1" id="img">
+                    <img src="/imageprocesso/Dia1/Conceito3partes/Amanda.jpeg" alt="">
+                    <img src="/imageprocesso/Dia1/Conceito3partes/Felipe.jpeg" alt="">
+                    <img src="/imageprocesso/Dia1/Conceito3partes/Guilherme.jpeg" alt="">
+                    <img src="/imageprocesso/Dia1/Conceito3partes/Leticia - 1.jpeg" alt="">
+                    <img src="/imageprocesso/Dia1/Conceito3partes/Leticia - 2.jpeg" alt="">
+                    <img src="/imageprocesso/Dia1/Conceito3partes/Luis F - 1.jpeg" alt="">
+                    <img src="/imageprocesso/Dia1/Conceito3partes/Luis F - 2.jpeg" alt="">
+                    <img src="/imageprocesso/Dia1/Conceito3partes/Luis F - 3.jpeg" alt="">
+                    <img src="/imageprocesso/Dia1/Conceito3partes/Welligton.jpeg" alt="">
+                </div>
+            </div>
+            <p class="w3-center"><em>Crazy 8s</em></p>
+            <div class="carrossel w3-center">
+                <div class="conteiner1" id="img">
+                    <img src="/imageprocesso/Dia1/Crazy8s/Amanda.jpeg" alt="">
+                    <img src="/imageprocesso/Dia1/Crazy8s/Felipe.jpeg" alt="">
+                    <img src="/imageprocesso/Dia1/Crazy8s/Guilherme.jpeg" alt="">
+                    <img src="/imageprocesso/Dia1/Crazy8s/Leticia.jpeg" alt="">
+                    <img src="/imageprocesso/Dia1/Crazy8s/Luis F..jpeg" alt="">
+                    <img src="/imageprocesso/Dia1/Crazy8s/Welligton.jpeg" alt="">
+                </div>
+            </div>
+            <p class="w3-center"><em>Mapa e Objetivos</em></p>
+            <div class="carrossel w3-center">
+                <div class="conteiner1" id="img">
+                    <img src="/imageprocesso/Dia1/Mapa e objetivos/Mapa.jpeg" alt="">
+                    <img src="/imageprocesso/Dia1/Mapa e objetivos/Obejtivos.jpeg" alt="">
+                </div>
+            </div>
+            <h2 class="w3-center"> Dia 2</h2>
+            <p class="w3-center"><em>Conceitos com votos</em></p>
+            <div class="carrossel w3-center">
+                <div class="conteiner1" id="img">
+                    <img src="/imageprocesso/Dia 2/Conceitos com os votos/Amanda.jpeg" alt="">
+                    <img src="/imageprocesso/Dia 2/Conceitos com os votos/Felipe.jpeg" alt="">
+                    <img src="/imageprocesso/Dia 2/Conceitos com os votos/Guilherme.jpeg" alt="">
+                    <img src="/imageprocesso/Dia 2/Conceitos com os votos/Leticia - 1.jpeg" alt="">
+                    <img src="/imageprocesso/Dia 2/Conceitos com os votos/Leticia - 2.jpeg" alt="">
+                    <img src="/imageprocesso/Dia 2/Conceitos com os votos/Luis F.jpeg" alt="">
+                    <img src="/imageprocesso/Dia 2/Conceitos com os votos/Welligton - 1.jpeg" alt="">
+                    <img src="/imageprocesso/Dia 2/Conceitos com os votos/Welligton - 2.jpeg" alt="">
+                </div>
+            </div>
+            <p class="w3-center"><em>Fluxo de teste</em></p>
+            <div class="carrossel w3-center">
+                <div class="conteiner1" id="img">
+                    <img src="/imageprocesso/Dia 2/Fluxo de teste/Amanda F.jpeg" alt="">
+                    <img src="/imageprocesso/Dia 2/Fluxo de teste/Felipe M.jpeg" alt="">
+                    <img src="/imageprocesso/Dia 2/Fluxo de teste/Guilherme.jpeg" alt="">
+                    <img src="/imageprocesso/Dia 2/Fluxo de teste/Leticia B.jpeg" alt="">
+                    <img src="/imageprocesso/Dia 2/Fluxo de teste/Luis F.jpeg" alt="">
+                    <img src="/imageprocesso/Dia 2/Fluxo de teste/Welligton.jpeg" alt="">
+                </div>
+            </div>
+            <p class="w3-center"><em>Storyboard</em></p>
+            <div class="carrossel w3-center">
+                <div class="conteiner1" id="img">
+                    <img src="/imageprocesso/Dia 2/Storyboard/StoryBoard.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-center w3-black w3-padding-64 w3-opacity">
+            <a href=" #home" class="w3-button w3-light-grey w3-center"><i
+                    class="fa fa-arrow-up w3-margin-right"></i>Voltar ao
+                Topo</a>
+        </footer>
+        <script>
+            const imgs = document.getElementById("img");
+            const img = document.querySelectorAll("#img img");
+
+            let idx = 0;
+
+            function carrossel() {
+                idx++;
+
+                if (idx > img.length - 1) {
+                    idx = 0;
+                }
+
+                // img.style.transform = 'translateX(${-idx * 500}px)';
             }
 
-            // img.style.transform = 'translateX(${-idx * 500}px)';
-        }
+            setInterval(carrossel, 10);
 
-        setInterval(carrossel, 10);
-
-        // Change style of navbar on scroll
-        window.onscroll = function () { myFunction() };
-        function myFunction() {
-            var navbar = document.getElementById("myNavbar");
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-            } else {
-                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            // Change style of navbar on scroll
+            window.onscroll = function () { myFunction() };
+            function myFunction() {
+                var navbar = document.getElementById("myNavbar");
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+                } else {
+                    navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+                }
             }
-        }
 
-        function onClick(element) {
-            document.getElementById("img01").src = element.src;
-            document.getElementById("modal01").style.display = "block";
-            var captionText = document.getElementById("caption");
-            captionText.innerHTML = element.alt;
-        }
-    </script>
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+                var captionText = document.getElementById("caption");
+                captionText.innerHTML = element.alt;
+            }
+        </script>
 
 </body>
 
