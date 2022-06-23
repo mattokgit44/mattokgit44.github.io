@@ -123,11 +123,11 @@
     <!-- Navbar (sit on top) -->
     <div class="topnav">
         <div class="w3-bar w3-top colortopbar">
-            <a href="#home" class="w3-bar-item w3-button">HOME</a>
-            <a href="#about" class="w3-bar-item w3-button"></i> SOBRE NÓS</a>
-            <a href="#video" class="w3-bar-item w3-button"></i>VIDEO</a>
-            <a href="#members" class="w3-bar-item w3-button"></i> MEMBROS</a>
-            <a href="#process" class="w3-bar-item w3-button"></i> PROCESSO</a>
+            <a href="#home" class="w3-bar-item w3-button smooth-scroll">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button smooth-scroll"></i> SOBRE NÓS</a>
+            <a href="#video" class="w3-bar-item w3-button smooth-scroll"></i>VIDEO</a>
+            <a href="#members" class="w3-bar-item w3-button smooth-scroll"></i> MEMBROS</a>
+            <a href="#process" class="w3-bar-item w3-button smooth-scroll"></i> PROCESSO</a>
             </a>
         </div>
 
@@ -376,6 +376,20 @@
             var captionText = document.getElementById("caption");
             captionText.innerHTML = element.alt;
         }
+
+        $(".smooth-scroll").click(function (e) {
+            let currentItem = e.target.text;
+            console.log(currentItem);
+            $("html, body").animate(
+                {
+                    scrollTop:
+                        $($(this).attr("href")).offset().top -
+                        (currentItem == "Skills" ? 100 : 100)
+                },
+                "fast"
+            );
+            return false;
+        });
     </script>
 
 </body>
