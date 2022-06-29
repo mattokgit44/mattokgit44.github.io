@@ -8,16 +8,22 @@ html {
   border-radius: 20px;
   overflow: hidden;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .navigation {
   position: absolute;
   bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
 }
 
 .bar {
-  width: 60px;
-  height: 7px;
+  width: 70px;
+  height: 17px;
   border: 2px solid white;
   border-radius: 5px;
   margin: 6px;
